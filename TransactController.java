@@ -34,7 +34,7 @@ public class TransactController {
 private TransactService transactService;
 
     
-    @GetMapping("/GetTransact")
+    @GetMapping("/GetTransactDetails")
     @ResponseBody
     public  List<Transact> getTransactDetails( ) {
      //   log.info("Inside get all transact method of TransactController");
